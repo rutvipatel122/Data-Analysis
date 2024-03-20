@@ -1,0 +1,92 @@
+1. loan type: 
+most of the CX have taken cash loans
+CX who have cash loans have less defaulters than revolving loans
+
+2. suite type:
+most of the loan were take by single clients rather than one living with partner and default rate is 8.9%
+
+3. income:
+safest segments are working class, commercials and pensioners with high loan takers and low defaulters
+
+4. education:
+CX with higher educartion are safest segment with lower default rate of less than 5%
+
+5. Family status of CX:
+married people are safe to targer with default rate of 8%
+
+6.Housing types:
+People having own house/apt are safe to give loans with less than 8% default rate
+
+7. Occupation
+low-skilled laboreres are highest defaulters
+accountants are least defaulters
+CX in driving occupation should not be targeted as they have high loans and high default rate of 11%
+
+8. Type of Org
+People in Transport type 3 orgs are highest defaulters as have less number of loans and 15% of default rates
+other, business entity 3 and self employeed should be targeted as with highest loans and default rate around 10%
+
+===============================================
+Numeric var analysis
+
+1.income:
+most of the customer given loan had income between 0-1M
+
+2. credit
+most of the loan were given for the credit amnt of 0-1M
+
+3.annuity/loan payment
+most of the CX are paying loan amnt of 0-50K
+
+4.goods credit/price 
+most of the loan given for the goods price ranges between 0-1M
+
+=======================================
+bivariate analysis(analysis based on 2 vars)
+
+
+1. amt credit and goods price are linearly corelated -> goods price go up, loan credit will also go up
+
+2. if credit increase, defaulters are decreasing
+
+3. people are earning less than a million, more likely to take loan and if they are taking loan more than 1.5M are more like to turn defaulter
+
+4. we can target CX with less than 1M income and wnats to take loan more than 1.5M
+
+5. people with 5 or more child are more defualter, with 1-3 child are less defaulter and taking more loans, so they should be targeted
+
+6. people who can pay the loan amnt of 100K are more likely to get a loan
+
+=======================================
+merged data analysis
+
+1. previously most CX applied for a loan for repairing purpose, and same category had most cancellation
+2. most of the previous application were either cancelled or refused
+3. 80-90% of this applications are repaire in the current data
+4. 90% CX turns out a repayer for all cotract status
+5. prev. unused offers are current max number of defaulters even with higher income
+
+
+===============================================
+Targeted CX:
+4. CX with own house/apt
+5. are married
+6. having kids no more than 3
+7. highly educated
+8. working in business entity 3 and self employeed organization type and in Accountants, core staff and laboreres
+9. 80-90% repayers CX whose application got canceled or refused previously are repayers
+
+==================================
+Amount predictions:
+1. the credit amnt should be more than 1M
+2. annuity can be made of 50K(depending on the eligibility)
+3. Income between 0-1M
+
+====================================
+
+CX to avoid
+1. CX in Transport industry
+2. low-skill laboreres and drivers
+3. high income CX
+4. CX who have previously unused offers
+
